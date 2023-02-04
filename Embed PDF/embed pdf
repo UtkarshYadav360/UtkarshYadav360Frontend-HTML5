@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>embed pdf</title>
+</head>
+
+<body>
+    <h1>"embed element", "iframe element" and "object element" can be used to embed pdf</h1>
+    <br>
+    <h3>Using Embed Element :</h3>
+    <p>"<strong>src = ""</strong> attribute" is used to tell the path of the pdf.</p>
+    <p>"<strong>type = "application/pdf"</strong> attribute" can be used to tell the type of the pdf.</p>
+    <p>width and height can be specified.</p>
+    <embed src="Guido Van Rossum Book.pdf" type="application/pdf" width="500px" height="500px">
+    <br>
+    <h3>Using Iframe Element :</h3>
+    <p>"<strong>src = ""</strong> attribute" is used to tell the path of the pdf.</p>
+    <p>no need to use type = "" attribute.</p>
+    <p>width and height can be specified.</p>
+    <iframe src="Guido Van Rossum Book.pdf" width="500px" height="500px"></iframe>
+    <br>
+    <h3>Using Object Element :</h3>
+    <p>"<strong>data = ""</strong> attribute" is used to tell the path of the pdf.</p>
+    <p>"<strong>type = "application/pdf"</strong> attribute" can be used to tell the type of the pdf.</p>
+    <p>width and height can be specified.</p>
+    <object data="Guido Van Rossum Book.pdf" type="application/pdf" width="500px" height="500px"></object>
+</body>
+
+</html>
