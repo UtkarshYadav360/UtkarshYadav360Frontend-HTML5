@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Maps</title>
+</head>
+
+<body>
+    <h1>Image Maps is a technique, which is used when we want to use more than one link on an image</h1>
+    <br>
+    <h3>STEPS TO USE IMAGE MAPS :</h3>
+    <ol>
+        <li>Use <strong>"img tag"</strong> for the selected image to have multiple links on it.</li>
+        <br>
+        <li>
+            put "<strong>usemap = ""</strong> attribute" in the "img element".It takes an <em>id</em> as it's value.
+        </li>
+        <br>
+        <li>Make a <strong>"map tag"</strong>.It is used to define an image map.Image map is an image with clickable
+            areas.</li>
+        <br>
+        <li>Put <strong>name = ""</strong> attribute" in the "map tag".
+            It should have the same value as <em>"usemap attribute"</em> have.</li>
+        <br>
+        <li>Make an "<strong>area tag</strong>".It defines the area in the image map which will be clickable.</li>
+        <br>
+        <li>Put "<strong>shape = ""</strong> attribute" and "<strong>coords = ""</strong> attribute"
+            in the <em>area tag</em>.</li>
+        <br>
+        <li><strong>shape attribute</strong> can have <em>default, rect, poly, circle</em> as it's value.</li>
+        <br>
+        <li>"<strong>coords attribute</strong>" have the coordinates of that part of the image,
+            where we have to put the link.
+            Number of coordinates depends on the shape we choose in <em>shape attribute</em>.</li>
+    </ol>
+    <br>
+    <h1>SHORTCUT :</h1>
+    <h3>Use imagemap.org or a similar website to automatically generate the code
+        when we drag our image and set a link to it</h3>
+    <hr>
+    <br><br>
+    <h3>Image With Multiple Links :</h3>
+    <img src="workplace image.jpg" usemap="#image_map">
+    <map name="image_map">
+        <area alt="Macbook" title="Macbook"
+            href="https://www.amazon.in/2022-Apple-MacBook-Laptop-chip/dp/B0B3BXKV8W/ref=sr_1_1?crid=3506REZD7JKB2&amp;keywords=macbook+pro+m2&amp;qid=1670025627&amp;sprefix=macbook+%2Caps%2C8328&amp;sr=8-1"
+            coords="40,23,525,533" shape="rect">
+        <area alt="Ipad" title="Ipad"
+            href="https://www.amazon.in/Apple-2022-10-9-inch-Wi-Fi-Cellular/dp/B0BJLXQJB5/ref=sr_1_omk_4?crid=3UXYM2845GCRM&amp;keywords=ipad&amp;qid=1670025713&amp;sprefix=ipa%2Caps%2C381&amp;sr=8-4"
+            coords="571,286,810,525" shape="rect">
+        <area alt="Iphone" title="Iphone"
+            href="https://www.amazon.in/sspa/click?ie=UTF8&amp;spc=MTo4NzA2MDA0NTA5MTYxODc3OjE2NzAwMjU4OTM6c3BfYXRmOjIwMDc3MzUyNzIzNDk4OjowOjo&amp;url=%2FApple-iPhone-Pro-1TB-Gold%2Fdp%2FB0BDJ54W8Y%2Fref%3Dsr_1_2_sspa%3Fkeywords%3Diphone%2B14%26qid%3D1670025893%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1"
+            coords="862,371,964,529" shape="rect">
+    </map>
+</body>
+
+</html>
