@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms are used to take user input</h1>
+    <br>
+    <ol>
+        <li>
+            <p>"<strong>form element</strong>" is used to make a form.</p>
+        </li>
+        <li>
+            <p>"<strong>input tag</strong>" is used to take input from the user.</p>
+        </li>
+        <li>
+            <p>"<strong>type = ""</strong> attribute" is used to specify the input type.</p>
+        </li>
+        <li>
+            <p><strong>type = "submit"</strong> is used to submit the form.Text inside the <strong>value = ""</strong>
+                attribute will be displayed inside the submit button.</p>
+        </li>
+    </ol>
+    <br>
+    <h3>Form Input Types :</h3>
+    <ol>
+        <li>type = "text"<em>(text type input)</em></li>
+        <br>
+        <li>type = "submit"<em>(submit button)</em></li>
+        <br>
+        <li>type = "color"<em>(color selector)</em></li>
+        <br>
+        <li>type = "date"<em>(calendar to choose date, day and month)</em></li>
+        <br>
+        <li>type = "email"<em>(email input)</em></li>
+        <br>
+        <li>type = "number"<em>(only number input)</em></li>
+        <br>
+        <li>type = "password"<em>(password input)</em></li>
+        <br>
+        <li>type = "reset"<em>(reset the form)</em></li>
+        <br>
+        <li>type = "time"<em>(specify the time input, for hour, minute and AM or PM)</em></li>
+        <br>
+        <li>type = "url"<em>(only url as input)</em></li>
+        <br>
+        <li>type = "range" min = "minimum price" max = "maximum price"
+            <em>(only for specific range of numbers mostly used in e-commerce websites)</em>
+            <br><br>
+        </li>
+        <li>
+            <strong>TYPE</strong> <em>enctype = "multipart/form-data"</em> <strong>INSIDE OPENING FORM TAG</strong>
+            <br>
+            <strong>TYPE</strong> <em>type = "file"</em> <strong>INSIDE INPUT TAG</strong>
+            <br>
+            "<strong>multiple</strong> attribute" can be placed inside the <em>input tag</em> to select multiple
+            files.
+        </li>
+    </ol>
+    <br>
+    <hr>
+    <h3>Form Taking ALl Types Of Inputs :</h3>
+    <form>
+        Text : <input type="text">
+        <br>
+        <br>
+        Color : <input type="color">
+        <br>
+        <br>
+        Date : <input type="date">
+        <br>
+        <br>
+        Email : <input type="email">
+        <br>
+        <br>
+        Number : <input type="number">
+        <br>
+        <br>
+        Password : <input type="password">
+        <br>
+        <br>
+        Time : <input type="time">
+        <br>
+        <br>
+        URl : <input type="url">
+        <br>
+        <br>
+        Range : <input type="range" min="10" max="100">
+        <br>
+        <br>
+        Reset : <input type="reset" value="Click To Reset">
+    </form>
+    <br>
+    <h3>Single File Upload :</h3>
+    <form enctype="multipart/form-data">
+        <input type="file">
+    </form>
+    <br>
+    <h3>Multiple File Upload :</h3>
+    <form enctype="multipart/form-data">
+        <input type="file" multiple>
+    </form>
+    <br>
+    <br>
+    Submit : <input type="submit" value="Click To Submit">
+</body>
+
+</html>
