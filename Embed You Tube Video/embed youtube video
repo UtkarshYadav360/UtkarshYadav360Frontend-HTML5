@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Embed YouTube Video</title>
+</head>
+
+<body>
+    <h1>Some Videos Cannot Be Embedded Because The Video Creator Don't Allows The Video Embedding</h1>
+    <h2>We can specify the height and width of the embedded video</h2>
+    <h2>We can adjust the start time and the end time of the embedded video</h2>
+    <br>
+    STEPS TO EMBED A YOUTUBE VIDEO IN THE WEBPAGE :
+    <ol>
+        <li>GO TO YOUTUBE</li>
+        <li>SELECT A VIDEO TO EMBED</li>
+        <li>CLICK ON SHARE</li>
+        <li>CLICK ON THE EMBED OPTION</li>
+        <li>COPY THE CODE</li>
+        <li>PASTE</li>
+    </ol>
+    <br>
+    <h3>Embedding YouTube Video :</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lsZxN5K6y5Q?" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <br>
+    <h3>Embedding Video With Specified Width and Height and Specified Start and End Time :</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lsZxN5K6y5Q?start=10&end=20"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+</body>
+
+</html>
