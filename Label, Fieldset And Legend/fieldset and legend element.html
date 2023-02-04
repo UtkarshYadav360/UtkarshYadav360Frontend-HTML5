@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>fieldset and legend element</title>
+</head>
+
+<body>
+    <h1>"fieldset element" makes a border around the text inside it</h1>
+    <h1>"legend element" describes the information about the content inside the <em>fieldset element</em></h1>
+    <form>
+        <fieldset>
+            <legend>Basic Information :</legend>
+            <label for="f-name">First Name :</label>
+            <input type="text" autofocus required id="f-name">
+            <br>
+            <br>
+            <label for="l-name">Last Name :</label>
+            <input type="text" required id="l-name">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>More Information :</legend>
+            <label for="address">Address</label>
+            <input type="text" required id="address">
+            <br>
+            <br>
+            <label for="contact-number">Contact Number</label>
+            <input type="text" required id="contact-number">
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Submit Here">
+    </form>
+</body>
+
+</html>
