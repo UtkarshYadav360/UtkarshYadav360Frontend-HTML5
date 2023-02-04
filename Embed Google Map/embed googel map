@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Embed Google Map</title>
+</head>
+
+<body>
+    <h1>Steps To Embed Google Map In A Web Page :</h1>
+    <ol>
+        <li>SELECT LOCATION FROM THE GOOGLE MAP</li>
+        <li>CLICK ON SHARE</li>
+        <li>SELECT EMBED A MAP</li>
+        <li>CHOOSE THE CUSTOM SIZE FROM THE LIST OF SIZES OR WHAT SIZE YOU WANT TO USE</li>
+        <li>CLICK ON COPY HTML</li>
+        <li>PASTE</li>
+    </ol>
+    <h3>Embedding A Location From The Google Map :</h3>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.014977980964!2d77.4373534147218!3d28.65927018962191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1c4449a064f%3A0xf5720dba2a3f398f!2sJawaharlal%20Nehru%20Stadium%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1675418517700!5m2!1sen!2sin"
+        width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+</body>
+
+</html>
