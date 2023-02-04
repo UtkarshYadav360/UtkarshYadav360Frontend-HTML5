@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>datalist</title>
+</head>
+
+<body>
+
+    <h1>"datalist element" is used to make a datalist</h1>
+    <h3><em>id = "" attribute from datalist element</em>
+        and <em>list = "" attribute from input tag</em> must match each other</h3>
+    <form>
+        <input type="text" list="search" placeholder="Search Some Fruits" required autofocus>
+        <datalist id="search">
+            <option value="apple"></option>
+            <option value="banana"></option>
+            <option value="guava"></option>
+            <option value="pineapple"></option>
+            <option value="pomegranate"></option>
+        </datalist>
+        <br>
+        <br>
+        <input type="submit" value="Submit Here">
+    </form>
+</body>
+
+</html>
