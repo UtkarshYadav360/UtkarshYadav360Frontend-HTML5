@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tables</title>
+</head>
+
+<body>
+    <h1>"<strong>table element</strong>" is used to define a table</h1>
+    <br>
+    <p>"<strong>tr element</strong>" is used to define table row.</p>
+    <br>
+    <p>"<strong>td element</strong>" is used to define columns.</p>
+    <br>
+    <p>"<strong>th element</strong>" is used to define heading</p>
+    <br>
+    <p>"<strong>border = ""</strong> attribute" is used to set the border around the table.</p>
+    <br>
+    <h3>Column Wise Table :</h3>
+    <table border="1px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>Naruto</td>
+            <td>22</td>
+            <td>Frontend Developer</td>
+        </tr>
+        <tr>
+            <td>Sasuke</td>
+            <td>24</td>
+            <td>Backend Developer</td>
+        </tr>
+        <tr>
+            <td>Sakura</td>
+            <td>23</td>
+            <td>Graphic Designer</td>
+        </tr>
+    </table>
+    <br>
+    <h3>Row Wise Table :</h3>
+    <table border="1px">
+        <tr>
+            <th>Name</th>
+            <td>Rohan</td>
+            <td>Sohan</td>
+            <td>Mohan</td>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <td>11th</td>
+            <td>12th</td>
+            <td>12th</td>
+        </tr>
+        <tr>
+            <th>Stream</th>
+            <td>Commerce</td>
+            <td>Science</td>
+            <td>Humanities</td>
+        </tr>
+    </table>
+    <br>
+    <h3>Images And Links As Table Data :</h3>
+    <table border="1px">
+        <tr>
+            <th>Images</th>
+            <th>Links</th>
+        </tr>
+        <tr>
+            <td><img src="AI Brain.jpg" alt="Ai Brain Image" width="100px" height="100px"></td>
+            <td><a href="https://www.youtube.com">YouTube</a></td>
+        </tr>
+        <tr>
+            <td><img src="Machine Love Hand.jpg" alt="Machine Handshake" width="100px" height="100px"></td>
+            <td><a href="https://www.facebook.com">Facebook</a></td>
+        </tr>
+    </table>
+    <br>
+    <h3>"<strong>colspan = ""</strong> attribute" is used to combine columns</h3>
+    <p><em>number of columns to combine</em> is the value for the colspan attribute.</p>
+    <br>
+    <h3>"<strong>rowspan = ""</strong> attribute" is used to combine rows</h3>
+    <p><em>number of rows to combine</em> is the value for the rowspan attribute.</p>
+    <br>
+    <table border="1px">
+        <tr>
+            <th>Names</th>
+            <td>Rohan</td>
+            <td colspan="2">Deepak</td>
+            <td>Krishna</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Jobs</th>
+            <td>data1</td>
+            <td>data2</td>
+            <td>data3</td>
+            <td>data4</td>
+        </tr>
+        <tr>
+            <td>data5</td>
+            <td>data6</td>
+            <td>data7</td>
+            <td>data8</td>
+        </tr>
+        <tr>
+            <td>data9</td>
+            <td>data10</td>
+            <td>data11</td>
+            <td>data12</td>
+        </tr>
+    </table>
+    <br>
+    <h3>"caption element" is used to specify the table name or the information about the data that table contains</h3>
+    <h3>"thead element" is used to define the table header or the heading of the table.</h3>
+    <h3>"tbody element" contains the data of the table.</h3>
+    <h3>"tfoot element" is same as "thead element",
+        but it helps when the table is scrollable and too big.It can also
+        contain the headings of the table.</h3>
+    <br>
+    <table border="1px">
+        <caption>Table Showing caption element, thead, tbody
+            and tfoot elements</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total Savings</td>
+                <td>$600</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <h3>tables that are created inside the "td element" known as nested tables</h3>
+    <br>
+    <table border="1px">
+        <caption>Nested Tables</caption>
+        <tr>
+            <td>Table1</td>
+            <td>Table1
+                <table border="1px">
+                    <tr>
+                        <td>Table2</td>
+                        <td>Table2</td>
+                    </tr>
+                    <tr>
+                        <td>Table2</td>
+                        <td>Table2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Table1</td>
+            <td>Table1</td>
+        </tr>
+    </table>
+</body>
+
+</html>
