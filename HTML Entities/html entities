@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Entities</title>
+</head>
+
+<body>
+    <h1>HTML Entities Are Used To Type Reserve Words In HTML</h1>
+    <h1>We Can Use Entity Name Or Entity Number To Use Reserve Words In HTML</h1>
+    <h1>Entity Names Are Case Sensitive</h1>
+    <br>
+    <h3>Using Entity Names :</h3>
+    <dl>
+        <ol>
+            <li>
+                <dt>Non-Breaking Space:</dt>
+            </li>
+            <dd>Here&nbsp;non-breaking&nbsp;spaces&nbsp;are&nbsp;used</dd>
+            <br>
+            <li>
+                <dt>Less Than :</dt>
+            </li>
+            <dd>This is a less than sign &lt;</dd>
+            <br>
+            <li>
+                <dt>Greater Than :</dt>
+            </li>
+            <dd>This is a less than sign &gt;</dd>
+            <br>
+            <li>
+                <dt>Ampersand :</dt>
+            </li>
+            <dd>This is an ampersand sign &amp;</dd>
+            <br>
+            <li>
+                <dt>Double Quotation Mark :</dt>
+            </li>
+            <dd>This is a double quotation mark &quot;</dd>
+            <br>
+            <li>
+                <dt>Single Quotation Mark (apostrophe) :</dt>
+            </li>
+            <dd>This is a single quote &apos;</dd>
+            <br>
+            <li>
+                <dt>Cent :</dt>
+            </li>
+            <dd>This is a cent sign &cent;</dd>
+            <br>
+            <li>
+                <dt>Pound :</dt>
+            </li>
+            <dd>This is a pound sign &pound;</dd>
+            <br>
+            <li>
+                <dt>Yen :</dt>
+            </li>
+            <dd>This is a yen sign &yen;</dd>
+            <br>
+            <li>
+                <dt>Euro :</dt>
+            </li>
+            <dd>This is a euro sign &euro;</dd>
+            <br>
+            <li>
+                <dt>Copyright :</dt>
+            </li>
+            <dd>This is a background sign &copy;</dd>
+            <br>
+            <li>
+                <dt>Registered Trademark :</dt>
+            </li>
+            <dd>This is a registered trademark &reg;</dd>
+        </ol>
+    </dl>
+    <br>
+    <hr>
+    <h3>Using Entity Numbers :</h3>
+    <dl>
+        <ol>
+            <li>
+                <dt>Non-Breaking Space:</dt>
+            </li>
+            <dd>Here&#160;non-breaking&#160;spaces&#160;are&#160;used</dd>
+            <br>
+            <li>
+                <dt>Less Than :</dt>
+            </li>
+            <dd>This is a less than sign &#60;</dd>
+            <br>
+            <li>
+                <dt>Greater Than :</dt>
+            </li>
+            <dd>This is a less than sign &#62;</dd>
+            <br>
+            <li>
+                <dt>Ampersand :</dt>
+            </li>
+            <dd>This is an ampersand sign &#38;</dd>
+            <br>
+            <li>
+                <dt>Double Quotation Mark :</dt>
+            </li>
+            <dd>This is a double quotation mark &#34;</dd>
+            <br>
+            <li>
+                <dt>Single Quotation Mark (apostrophe) :</dt>
+            </li>
+            <dd>This is a single quote &#39;</dd>
+            <br>
+            <li>
+                <dt>Cent :</dt>
+            </li>
+            <dd>This is a cent sign &#162;</dd>
+            <br>
+            <li>
+                <dt>Pound :</dt>
+            </li>
+            <dd>This is a pound sign &#163;</dd>
+            <br>
+            <li>
+                <dt>Yen :</dt>
+            </li>
+            <dd>This is a yen sign &#165;</dd>
+            <br>
+            <li>
+                <dt>Euro :</dt>
+            </li>
+            <dd>This is a euro sign &#8364;</dd>
+            <br>
+            <li>
+                <dt>Copyright :</dt>
+            </li>
+            <dd>This is a background sign &#169;</dd>
+            <br>
+            <li>
+                <dt>Registered Trademark :</dt>
+            </li>
+            <dd>This is a registered trademark &#174;</dd>
+        </ol>
+    </dl>
+    <br>
+    <hr>
+    <strong>To Print HTML Emojis and Symbols search on google.They can be used using this same method.</strong>
+</body>
+
+</html>
